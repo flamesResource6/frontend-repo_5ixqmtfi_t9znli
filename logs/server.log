@@ -3,19 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 277 ms
+  VITE v5.4.20  ready in 271 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.3.120:3000/
-Error: The following dependencies are imported but could not be resolved:
-
-  three (imported by /home/workspace/src/components/VRLab.jsx)
-  three/examples/jsm/webxr/XRButton.js (imported by /home/workspace/src/components/VRLab.jsx)
-  three/examples/jsm/webxr/VRButton.js (imported by /home/workspace/src/components/VRLab.jsx)
-  three/examples/jsm/controls/OrbitControls.js (imported by /home/workspace/src/components/VRLab.jsx)
-
-Are they installed?
-    at file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:50669:15
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:50174:26
-11:15:53 PM [vite] Pre-transform error: Failed to resolve import "three" from "src/components/VRLab.jsx". Does the file exist?
